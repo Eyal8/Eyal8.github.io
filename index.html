@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eyal Arviv's Website</title>
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Sans" rel="stylesheet">
+	</head>
+	<body>
+		<br/>
+		<br/>
+		<br/>
+			<div id="topnav">
+				<li><a href="#about">About Me</a></li>
+				<li><a href="#photos">My Photos</a></li>
+				<li><a href="#playlist">My Playlist</a></li>
+				<li><a href="#like">Like</a></li>
+				<li><a href="#qrcoder">QR code</a></li>
+				<li><a href="#spa">Q&A </a></li>
+				<li><a href="#contact">Contact Me</a></li>
+			</div>
+
+		<br/>
+		<br/>
+		<br/>
+		<span id="about"> </span>		
+		<br/>
+		<section class="section">
+		<img class="icons" src="icons/puzzle.png" alt="puzzle">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<span class="navelement">About me</span>
+		<br/>
+		<br/>
+	
+
+		<p class="par"> Hey, my name is Eyal Arviv. I am 24 years old and I am very happy you came to visit my page.</p>
+		<p class="par"> click this button to find out more details about me: </p>
+		<br/>
+		<button id="tablebutton" type="button" onclick="aboutme(this)">I want more info</button>
+		<br/>
+		<br/>
+		<br/>
+			<label id="myHobbiesSwitch" class="switches">
+				<input type="checkbox" name="hobbies" onchange="checkboxChange(this)">
+				<span class="slider round"></span>
+			</label>
+			<label id="myInterestsSwitch" class="switches">
+				<input type="checkbox" name="interests" onchange="checkboxChange(this)">
+				<span class="slider round"></span>
+			</label>
+			<label id="myExpectationsSwitch" class="switches">
+				<input type="checkbox" name="expectations" onchange="checkboxChange(this)">
+				<span class="slider round"></span>
+			</label>
+			<label id="myStruggleSwitch" class="switches">
+				<input type="checkbox" name="struggles" onchange="checkboxChange(this)">
+				<span class="slider round"></span>
+			</label>
+		<br/>
+		<br/>
+		<table id="hobbiesTable" class="tables">
+			<tr> 
+				<th>My hobbies</th>
+			</tr>
+			<tr>
+				<td>Designing Websites - Dahh!</td>
+			</tr>
+			<tr>
+				<td>Painting</td>
+			</tr>
+			<tr>
+				<td>Playing guitar</td>
+			</tr>
+			<tr>
+				<td>
+					<img id="burger" src="icons/hamburger.png">
+				</td>
+			</tr>
+			</table>
+		
+		
+		<table id="interestsTable" class="tables">
+			<tr> 
+				<th>My interests about Information systems Engineering</th>
+			</tr>
+			<tr>
+				<td>Designing webpages</td>
+			</tr>
+			<tr>
+				<td>Artificial Intelligence</td>
+			</tr>
+			<tr>
+				<td>Java programming</td>
+			</tr>
+			<tr>
+				<td>
+					<img id="pizza" src="icons/pizza.png">
+				</td>
+			</tr>
+		</table>
+		
+		<table id="expectationsTable" class="tables">
+			<tr> 
+				<th>My Expectations from this Module</th>
+			</tr>
+			<tr>
+				<td>Improving my html+css+js skills</td>
+			</tr>
+			<tr>
+				<td>Getting familiar with angular</td>
+			</tr>
+			<tr>
+				<td>Having fun!</td>
+			</tr>
+			<tr>
+				<td>
+					<img id="pizza" src="icons/steak.png">
+				</td>
+			</tr>
+		</table>
+		
+		<table id="strugglesTable" class="tables">
+			<tr> 
+				<th>Things I struggled with building this website</th>
+			</tr>
+			<tr>
+				<td>Decorating things with css</td>
+			</tr>
+			<tr>
+				<td>Making animations</td>
+			</tr>
+			<tr>
+				<td>JavaScript</td>
+			</tr>
+			<tr>
+				<td>
+					<img id="pizza" src="icons/pint.png">
+				</td>
+			</tr>
+		</table>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		</section>
+
+		<br/>
+		<br/>
+		<br/>
+		<span id="photos"> </span>
+		<br/>
+		<section class="section">
+		<img class="icons" src="icons/picture.png" alt="pictures">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<span class="navelement">My photos</span>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<!-- Slideshow container -->
+		<div id="ukSlideshow" class="slideshow-container">
+			<div class="mySlides fade">
+				<img src="pictures/uk/20170929_124804.jpg" style="width:70%">
+				<div class="numbertext">1 / 21</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="pictures/uk/20170930_150713.jpg" style="width:70%">
+				<div class="numbertext">2 / 21</div>
+			</div>
+
+			<div class="mySlides fade">
+				<img src="pictures/uk/20171003_142501.jpg" style="width:70%" class="rotate180">
+				<div class="numbertext">3 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/uk/20171104_153157.jpg" style="width:70%">
+				<div class="numbertext">4 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/uk/20171115_130823.jpg" style="width:70%">
+				<div class="numbertext">5 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/uk/20171210_150351.jpg" style="width:70%">
+				<div class="numbertext">6 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/uk/20171215_200852.jpg" style="width:70%">
+				<div class="numbertext">7 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/uk/20171210_145619_001.jpg" style="width:70%">
+				<div class="numbertext">8 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/shows/IMG-20170518-WA0006.jpg" style="width:70%">
+				<div class="numbertext">9 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/shows/IMG-20170518-WA0008.jpg" style="width:70%">
+				<div class="numbertext">10 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/shows/IMG-20170518-WA0013.jpg" style="width:70%">
+				<div class="numbertext">11 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/shows/IMG-20170518-WA0015.jpg" style="width:70%">
+				<div class="numbertext">12 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/shows/IMG-20170716-WA0011.jpg" style="width:70%">
+				<div class="numbertext">13 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/mytrip/20171224_125922.jpg" style="width:70%">
+				<div class="numbertext">14 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/mytrip/20171226_110635.jpg" style="width:70%">
+				<div class="numbertext">15 / 21</div>
+			</div>
+						<div class="mySlides fade">
+				<img src="pictures/mytrip/20171226_121306.jpg" style="width:70%">
+				<div class="numbertext">16 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/mytrip/20171229_174416.jpg" style="width:70%">
+				<div class="numbertext">17 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/mytrip/20171230_135609.jpg" style="width:70%" class="rotate180">
+				<div class="numbertext">18 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/mytrip/20180103_165705.jpg" style="width:70%" class="rotate180">
+				<div class="numbertext">19 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/mytrip/20180104_184233.jpg" style="width:70%">
+				<div class="numbertext">20 / 21</div>
+			</div>
+			<div class="mySlides fade">
+				<img src="pictures/mytrip/20180105_211957.jpg" style="width:70%">
+				<div class="numbertext">21 / 21</div>
+			</div>
+			  <!-- Next and previous buttons -->
+			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+			  <!-- The dots/circles -->
+			<div style="text-align:center">
+			  <span class="dot" onclick="currentSlide(1)"></span> 
+			  <span class="dot" onclick="currentSlide(2)"></span> 
+			  <span class="dot" onclick="currentSlide(3)"></span> 
+			  <span class="dot" onclick="currentSlide(4)"></span> 
+			  <span class="dot" onclick="currentSlide(5)"></span> 
+			  <span class="dot" onclick="currentSlide(6)"></span> 
+			  <span class="dot" onclick="currentSlide(7)"></span> 
+			  <span class="dot" onclick="currentSlide(8)"></span> 
+			  <span class="dot" onclick="currentSlide(9)"></span> 
+			  <span class="dot" onclick="currentSlide(10)"></span> 
+			  <span class="dot" onclick="currentSlide(11)"></span> 
+			  <span class="dot" onclick="currentSlide(12)"></span> 
+			  <span class="dot" onclick="currentSlide(13)"></span> 
+			  <span class="dot" onclick="currentSlide(14)"></span> 
+			  <span class="dot" onclick="currentSlide(15)"></span> 
+			  <span class="dot" onclick="currentSlide(16)"></span> 
+			  <span class="dot" onclick="currentSlide(17)"></span> 
+			  <span class="dot" onclick="currentSlide(18)"></span> 
+			  <span class="dot" onclick="currentSlide(19)"></span> 
+			  <span class="dot" onclick="currentSlide(20)"></span> 
+			  <span class="dot" onclick="currentSlide(21)"></span> 
+			</div>
+		</div>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		</section>
+		<br/>
+		<br/>
+		<br/>
+		<span id="playlist"> </span>
+		<br/>
+		<section class="section">
+		<img class="icons" src="icons/compact-disc.png" alt="playlist">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<span class="navelement">My playlist</span>
+		<br/>
+		<br/>
+		<br/>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLbx4YEqnoXoEnBFYAi7ttrFZyMebkaOcn" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		</section>
+		<br/>
+		<br/>
+		<br/>
+		<span id="like"> </span>
+		<br/>
+		<section class="section">
+		<img class="icons" src="icons/like.png" alt="like">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<span class="navelement">Give me a like</span>
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<iframe id="likebutton" src="https://www.facebook.com/plugins/like.php?href=http%3A%2F%2Feyalarviv.paperplane.io%2F&width=74&layout=button_count&action=like&size=large&show_faces=false&share=false&height=21&appId=161923484512487" width="74" height="21" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+		<br/>
+		<img src="icons/heart1.png" alt="heart">
+		<br/>
+		</section>
+		<br/>
+		<br/>
+		<br/>
+		<span id="qrcoder"> </span>
+		<br/>
+		<section class="section">
+		<img class="icons" src="icons/qr-code.png" alt="qrcoder">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<span class="navelement">scan my code</span>
+		<br/>
+		<br/>
+		<br/>
+		<br/> <img id="qrcode" src="pictures/qrcode.png"> 
+		<br/>
+		<br/>
+		<br/>
+		</section>
+		<br/>
+		<br/>
+		<br/>
+		<span id="spa"> </span>
+		<br/>
+		<section class="section">
+		<img class="icons" src="icons/discuss-issue.png" alt="spa">
+		<br/>
+		<br/>
+		<br/>
+		<br/>
+		<span class="navelement">Q&A</span>
+		<br/>
+		<br/>
+		<br/>
+		<p class="questions"><b>Q1: What are the the main differences between Web 1.0, Web 2.0 and Web 3.0?</b></p>
+		<table>
+			<tr>
+			
+			<th>  </th>
+			<th>Web 1.0</th>
+			<th>Web 2.0</th>
+			<th>Web 3.0</th>
+			</tr>
+			<tr>
+				<td>About the Web</td>
+				<td>Web 1.0 was the first reiteration. Actually it was called ‘The Internet’ not version 1 or Web1.0. It was generally used before 1999 when experts called it the Read-Only era. The main features of ‘The Internet’ not Web 1.0 were hyper-linking and bookmarking of the web pages. It only consisted of online guestbook and framesets. There was no flow or communication between Consumer and the producer of the information. Also, the emails were sent through the HTML form. The best examples of ‘The Internet’ are static websites which were made during the ‘.com evolution’.</td>
+				<td>Web 2.0 was first introduced in the market by O’Reilly at the brainstorming discussion at media live International in 1999. The information available through Web 2.0 empowered the new generation to develop new concepts like Wiki, Widgets and Video streaming. It also allowed many users to publish their own content through few basic steps, which was not possible in the Web 1.0 or The Internet. Web 2.0 was responsible for the development of various sites that we commonly use today like Twitter, Flickr and Facebook.</td>
+				<td>Web 3.0 is known as the third generation of World Wide Web. It has everything that we could ever wish for.  With the help of Web 3.0, web content was easily carried in the form of natural language. It also consist of micro formats, natural language search, recommendation agents which are commonly known as AI i.e. Artificial Intelligence. We can also find different attributes like Deductive Reasoning, Contextual Search, Evolution of 3D web, Personalized Search and Tailor made Search which was not present in earlier versions. Through such advancements in Web 3.0, we have become empowered to do many things that we may have never dreamed of. But this not the end, as with the time we will get to see more advancements in World Wide Web that will make internet surfing an amazing experience.</td>
+			</tr>
+			<tr>
+				<td>Phrase of the World Wide Web</td>
+				<td>The "readable" phrase with flat data</td>
+				<td>The "writeable" phrase with interactive data</td>
+				<td>The "executable" phrase with applications, interactive services, and "machine-to-machine" interaction</td>
+			</tr>
+			<tr>
+				<td>Time used</td>
+				<td>1990-2000</td>
+				<td>2000-2010</td>
+				<td>2010~2020</td>
+			</tr>
+			<tr>
+				<td>Webpage kind</td>
+				<td>"The web" - Static pages and web sites</td>
+				<td>"The social web" - Social networking sites such as Facebook and MySpace. Also, Blogs and micro-blogs like Twitter</td>
+				<td>"The semantic web" - The intelligent Web</td>
+			</tr>
+			<tr>
+				<td>other uses</td>
+				<td>personal web pages, and Info pages</td>
+				<td>Sites that let users share content, like YouTube</td>
+				<td>Using Web API, Machine learning & NLP</td>
+			</tr>
+			<tr>
+				<td>Is interactive?</td>
+				<td>No</td>
+				<td>Yes</td>
+				<td>Obviously</td>
+			</tr>
+			<tr>
+				<td>Number of users</td>
+				<td>Millions</td>
+				<td>Billions</td>
+				<td>Trillions</td>
+			</tr>
+		</table>
+		<br/>
+		<p class="questions"><b>Q2: An example demonstrating the differences between Web 1.0/2.0/3.0:</b></p>
+		<p class="questions">Goal: Searching for information, like side-effects of a drug, on the web</span>
+		<p class="questions">Web 1.0: Probably a static website with explanations. The user must know the address of the website. There is limited interaction between sites and the web users. Web 1.0 is simply an information portal where users passively receive information without being given the opportunity to post reviews, comments, and feedback. Search engins are not very effective. In Web 1.0 search engines retrieve macro contents. Search is very fast but many times results are inaccurate or more than users can chew.</p>
+		<p class="questions">Web 2.0: In Web 2.0 people contributed websites by commenting and sharing information, which make the search of information easier and faster. search engins became more useful. 
+		<p class="questions">Web 3.0: In Web 3.0 we have a recording program that can search the web and read what it finds to you based on your preferences. Search engins know what to display to a specific user by learning one's preferences.</p>
+		<br/>
+		<br/>
+		</section>
+		<br/>
+		<br/>
+		<br/>
+		<span id="contact"> </span>
+		<br/>
+		<br/>
+		<br/>
+		<section class="section">
+		<br/>
+		<h1><span>Contact Me</span></h1>
+		<br/>
+		<br/>
+		<iframe id="googleform" src="https://docs.google.com/forms/d/e/1FAIpQLSeOFjP9cTOgeJp1AGnwoUzkt8PkaN6Aso-Ta0syiofz9HOuIw/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+		<br/>
+		<br/>
+		<br/>
+
+		<div class="navelement" id="contacts">
+			<div id="contactIcons">
+                <a href="https://www.facebook.com/eyal.arviv">
+                    <img alt="Facebook" src="icons/facebook.png"/>
+                </a>
+                <a href="https://www.instagram.com/eyal8arviv/">
+                    <img alt="Instagram" src="icons/instagram.png" />
+                </a>
+				<a href="https://www.youtube.com/channel/UCMRSLmmCAJ-Io0s7eYM5bwA?view_as=subscriber" hreflang="fr" target="_blank">
+                    <img alt="Youtube" src="icons/youtube.png" />
+                </a>
+            </div>
+		</div>
+		</section>
+ 		<script type="text/javascript" src="js.js"></script>
+	</body>
+</html>

@@ -1,0 +1,353 @@
+body{
+	font-family: 'PT Sans', sans-serif;
+	background: #efefef;
+	background-image: url("pictures/geometry_@2X.png");
+	
+ 
+}
+
+#topnav
+{
+	z-index: 999;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 20px;
+	height: 45px;
+	line-height: 45px;
+	background: white;
+	overflow: hidden;
+	list-style-type: none;
+    margin: auto;
+	width:950px;
+    background-color: rgba(200,180,240,0.8);
+    border-radius: 12px;
+}
+#topnav li{
+	float: left;
+	width:14.2857142857%;
+	font-weight:bold;
+}
+#topnav li a{
+	display: block;
+	position: relative;
+    color: white;
+    text-align: center;
+	padding: 14px 25px;
+    text-decoration: none;
+	bottom: 15px;
+}
+#topnav li a:hover{
+	background-color: rgba(200,80,255,0.6);
+}
+.section{
+	background-color: rgba(100,80,240,0.9);
+	font-size: 16px;
+	color: white;
+	margin:auto;
+	width: 1000px;
+	text-align: center;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 13px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.navelement{
+	font-size: 20px;
+	font-weight: bold;
+	right: 52px;
+	position: relative;
+}
+.icons{
+	float: left;
+	display: inline;
+	position: relative;
+padding: 20px;
+}
+
+/******** ABOUT ME SECTION ***********/
+
+#tablebutton{
+	padding: 7px;
+	cursor: pointer;
+	border-radius: 3px;
+	background-color: rgba(72, 63, 191,0.5);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+	color: white;
+	font-weight: bold;
+	
+}
+
+.tables{
+	position: initial;
+	visibility: hidden;
+	margin: 20px;
+	width:20%;
+	float: left;
+}
+
+th{
+	border: 2px solid rgba(72, 63, 191,1);
+	border-collapse: collapse;
+	text-align: center;
+    table-layout: fixed;
+	font-size: 18px;
+	background-color: rgba(72, 63, 191,1);
+}
+
+td{
+	border: 2px solid rgba(72, 63, 191,0.6);
+	border-collapse: collapse;
+	text-align: center;
+    table-layout: fixed;
+}
+
+
+#myHobbiesSwitch{
+	left: -300px;
+	position: relative;
+}
+#myInterestsSwitch{
+	left: -110px;
+	position: relative;
+}
+#myExpectationsSwitch{
+	left: 80px;
+	position: relative;
+}
+#myStruggleSwitch{
+	left: 270px;
+	position: relative;
+}
+#likebutton{
+	height: 100px;
+}
+.switches {
+	
+	position: relative;
+	display: none;
+	width: 45px;
+	height: 24px;
+}
+/*
+.switch input {display:none;}
+*/
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #555;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(20px);
+  -ms-transform: translateX(20px);
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+
+
+/****** IMG SECTION ********/
+
+.selector{
+	border-radius: 4px;
+	background-color: rgba(72, 63, 191,0.7);
+	padding: 5px;
+	text-align:center;
+	width: 300px;
+	text-align-last:center;
+	color: white;
+	font-weight: bold;
+}
+.selector:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
+
+.options{
+	border-radius: 13px;
+	background-color: rgba(72, 63, 191,1);
+	padding: 5px;
+	text-align:center;
+	color: white;
+	font-weight: bold;
+}
+.options:hover{
+	cursor: pointer;
+	opacity: 0.7;
+	box-shadow: 0 0 10px 100px #1882A8 inset;
+
+}
+
+
+#photos{
+	box-sizing:border-box
+}
+/* In case of need */
+.rotate180{
+	transform: rotate(180deg);
+}
+.rotate90{
+	transform: rotate(90deg);
+}
+.rotate270{
+	transform: rotate(270deg);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 3px 3px 3px 3px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+/* Position the "prev button" to the left */
+.prev{
+	left:0px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(72, 63, 191,0.8);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: realtive;
+  top: 0;
+  text-align:center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/************** QR code **********/
+#qrcode{
+	box-shadow: 6px -1px 51px 33px rgba(94,115,191,1);
+	border-radius: 13px;
+}
+
+/************** Q&A *************/
+
+.questions{
+	text-align: left;
+	padding-left: 20px;
+}
+
+
+
+/************ CONTACT ME SECTION ********/
+
+.googleform{
+	border-radius: 10px;
+}
+
+#contacts img {
+    height: 50px;
+    width: 50px;
+    margin-left: 17px;
+    margin-right: 17px;
+}
+#contacts a {
+    text-decoration: none;
+}
+#contacts img:hover {
+    opacity: 0.8;
+}
+#contacts {
+    text-align: center;
+}	
+#contactIcons{
+  margin: 0 auto;
+  padding-left: 120px;
+}
