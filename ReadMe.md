@@ -1,16 +1,8 @@
 
 
-*************vvvvvvvvvvvvvvvvvvvvvvvvvvvv*************
-*************vvvvvvvvvvvvvvvvvvvvvvvvvvvv*************
-*************                            *************
-*************     My first Website!      *************
-*************                            *************
-*************^^^^^^^^^^^^^^^^^^^^^^^^^^^^*************
-*************^^^^^^^^^^^^^^^^^^^^^^^^^^^^*************
+# My First Website
 
-Name : Eyal Arviv
-Website url: https://pk2zcl2p25uo0nzmhmwl5w-on.drv.tw/MyWebsite/
+Author: Eyal Arviv
+Website URL: https://Eyal8.github.io
 
 
-
-I really enjoyed making this website. Hope you will enjoy it as well!
